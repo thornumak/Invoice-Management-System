@@ -702,7 +702,7 @@ Ready to process your first invoice? Click the browse button above! 📂
         ttk.Label(form_frame, text="Payment Method:").grid(row=2, column=0, sticky="w", pady=5)
         self.payment_method_var = tk.StringVar(value="Bank Transfer")
         payment_combo = ttk.Combobox(form_frame, textvariable=self.payment_method_var, 
-                                     values=["Bank Transfer", "PayPal", "Check", "Cash"], width=27)
+                                     values=["Bank Transfer", "PayPal", "Other", "Cash"], width=27)
         payment_combo.grid(row=2, column=1, sticky="w", padx=5, pady=5)
         
         ttk.Label(form_frame, text="Payment Terms (days):").grid(row=3, column=0, sticky="w", pady=5)
@@ -764,16 +764,16 @@ Ready to process your first invoice? Click the browse button above! 📂
         self.manual_date_var = tk.StringVar(value=datetime.now().strftime('%Y-%m-%d'))
         ttk.Entry(form_frame, textvariable=self.manual_date_var, width=20).grid(row=2, column=1, sticky="w", padx=5, pady=5)
         
-        ttk.Label(form_frame, text="Company Name (for external):").grid(row=3, column=0, sticky="w", pady=5)
+        ttk.Label(form_frame, text="Company Name:").grid(row=3, column=0, sticky="w", pady=5)
         self.manual_company_var = tk.StringVar()
         ttk.Entry(form_frame, textvariable=self.manual_company_var, width=30).grid(row=3, column=1, sticky="w", padx=5, pady=5)
         
-        ttk.Label(form_frame, text="Payment Method (for external):").grid(row=4, column=0, sticky="w", pady=5)
+        ttk.Label(form_frame, text="Payment Method:").grid(row=4, column=0, sticky="w", pady=5)
         self.manual_payment_var = tk.StringVar()
         ttk.Combobox(form_frame, textvariable=self.manual_payment_var, 
-                     values=["Bank Transfer", "PayPal", "Check", "Cash"], width=27).grid(row=4, column=1, sticky="w", padx=5, pady=5)
+                     values=["Bank Transfer", "PayPal", "Other", "Cash"], width=27).grid(row=4, column=1, sticky="w", padx=5, pady=5)
         
-        ttk.Label(form_frame, text="Payment Terms Days (for external):").grid(row=5, column=0, sticky="w", pady=5)
+        ttk.Label(form_frame, text="Payment Terms Days:").grid(row=5, column=0, sticky="w", pady=5)
         self.manual_terms_var = tk.StringVar()
         ttk.Entry(form_frame, textvariable=self.manual_terms_var, width=10).grid(row=5, column=1, sticky="w", padx=5, pady=5)
         
@@ -1141,7 +1141,7 @@ Ready to process your first invoice? Click the browse button above! 📂
         ttk.Label(main_frame, text="Payment Method:").grid(row=4, column=0, sticky="w", pady=5)
         edit_payment_var = tk.StringVar(value=current_payment_method)
         payment_combo = ttk.Combobox(main_frame, textvariable=edit_payment_var, 
-                                     values=["Bank Transfer", "PayPal", "Check", "Cash"], width=27)
+                                     values=["Bank Transfer", "PayPal", "Other", "Cash"], width=27)
         payment_combo.grid(row=4, column=1, columnspan=3, sticky="w", padx=5, pady=5)
         
         ttk.Label(main_frame, text="Payment Terms (days):").grid(row=5, column=0, sticky="w", pady=5)
