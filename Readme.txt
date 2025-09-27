@@ -32,11 +32,12 @@ Follow these steps to set up and run the application on your local machine.
 ### Prerequisites
 
 -   **Python 3.8 or newer** is required.
+-   The `invoices.db` file must be in the same folder as the script.
 -   **(Optional for Linux)** `zenity` for a native file selection dialog. If not installed, the application will use the default dialog.
 
 ### Installation & Setup
 
-1.  **Clone or Download**: Download the project files into a dedicated folder.
+1.  **Download Files**: Download the project files, including `invoices.py` and the empty `invoices.db`, into a dedicated folder.
 
 2.  **Create `requirements.txt`**: In the project folder, create a new file named `requirements.txt` and paste the following lines into it:
     ```
@@ -64,33 +65,13 @@ Follow these steps to set up and run the application on your local machine.
 
 ## 🏃 How to Run the Application
 
-With your terminal in the project directory and the virtual environment activated, run the main script:
+With your terminal in the project directory and the virtual environment activated, run the main script. **Make sure `invoices.db` is in the same folder.**
 
 ```bash
-# Replace 'invoices.py' with the actual name of your Python file
 python invoices.py
 ```
 
----
-
-### (Optional) Making the Script Executable
-
-For easier access on Linux and macOS, you can make the script directly executable.
-
-1.  **Add Execute Permissions**: In your terminal, run the following command once:
-    ```bash
-    chmod +x invoices.py
-    ```
-
-2.  **Run Directly**: Now, after activating your virtual environment, you can run the application with a shorter command:
-    ```bash
-    ./invoices.py
-    ```
-
-
-The first time you run the application, it will automatically create two files in the same directory:
--   `invoices.db`: The database where all your data is stored. **Do not delete this file!**
--   `invoice_config.json`: A configuration file to remember the last folder you opened.
+When you first launch the app, the included database will be empty. The `invoice_config.json` file will be created automatically after you process your first invoice file.
 
 ---
 
