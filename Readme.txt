@@ -18,7 +18,7 @@ It features multi-currency support and stores all data in an `invoices.db` SQLit
 -   **💵 Multi-Currency Support**: Select, store, and track invoices in various currencies (EUR, USD, GBP, etc.).
 -   **🗂️ Batch Processing**: Process multiple invoice files at once with a single click.
 -   **⚙️ Pattern Management**: Create custom "patterns" to automatically associate invoice codes with specific company details, including a default currency.
--   **📊 Payment Tracking Dashboard**: View all invoices in a sortable table. Invoices are color-coded by status (Overdue, Due Soon, Paid) for easy tracking.
+-   **📊 Payment Tracking Dashboard**: View all invoices in a table. Invoices are color-coded by status (Overdue, Due Soon, Paid) for easy tracking.
 -   **✏️ Full CRUD Functionality**: Manually add, edit, or delete any invoice record. Mark invoices as "Paid" to update their status.
 -   **📈 Statistics & Analytics**: A dedicated dashboard provides key financial insights, including total revenue, unpaid amounts, top clients, and monthly revenue charts.
 -   **💾 Local Database**: All data is stored in a local `invoices.db` SQLite file. No external services or internet connection is required.
