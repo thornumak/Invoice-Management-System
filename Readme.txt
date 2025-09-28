@@ -38,7 +38,7 @@ Statistics and Analytics dashboard:
 
 Patterns tab:
 
-![Statistics Tab](./images/patterns.png)
+![Patterns Tab](./images/patterns.png)
 
 
 
