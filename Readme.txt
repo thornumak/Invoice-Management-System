@@ -25,6 +25,23 @@ It features multi-currency support and stores all data in an `invoices.db` SQLit
 
 ---
 
+
+## 📸 Screenshots
+
+Main Payment Tracking dashboard:
+
+![Payment Tracking Tab](./images/tracking.png)
+
+Statistics and Analytics dashboard:
+
+![Statistics Tab](./images/statistics.png)
+
+Patterns tab:
+
+![Statistics Tab](./images/patterns.png)
+
+
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the application on your local machine.
