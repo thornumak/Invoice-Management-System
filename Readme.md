@@ -134,3 +134,6 @@ For the best experience, your first step should be to set up patterns for your c
 -   This dashboard gives you a high-level overview of your business finances.
 -   Click the **Refresh Statistics** button to ensure you are viewing the most up-to-date information.
 -   **Note**: The overview cards currently aggregate all amounts and display them with a Euro (€) symbol, regardless of their original currency.
+
+
+Please check out my other projects as well: https://thornumak.github.io/
